@@ -1,0 +1,16 @@
+.footer-section{
+    background-color: #215E00;
+    width: 100%;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+    padding: 4rem;
+}
+@media only screen and (min-width: 992px){
+    .footer-section{
+        font-size: 5rem;
+    }
+}

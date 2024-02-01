@@ -1,0 +1,72 @@
+.thumb{
+    display: flex;
+    width: 100%;
+    padding: 3rem;
+}
+.thumb .body-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: #215E00;
+}
+.thumb .thumbnail-img{
+    width: 50%;
+    display: flex;
+}
+.thumb .thumbnail-img .imagethumbnail{
+    width: 50%;
+    margin-left: 50%;
+}
+@media only screen and (max-width: 480px){
+    .thumb{
+        width: 100%;
+        display: flex;
+        padding: 5rem;
+    }
+    .thumb .body-text{
+        width: 50%;
+    }
+    .thumb .thumbnail-img .imagethumbnail{
+        width: 15rem;
+        height: 10rem;
+        margin-left: 40%;
+        margin-top: 80%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .thumb .thumbnail-img .imagethumbnail{
+        margin-left: 0;
+        margin-top: 40%;
+        width: 18rem;
+        height: 20rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .thumb .thumbnail-img .imagethumbnail{
+        margin-left: 0;
+        margin-top: 30%;
+        width: 18rem;
+        height: 15rem;
+    }
+}
+@media only screen and (max-width: 992px){
+    .thumb .thumbnail-img .imagethumbnail{
+        margin-left: 5rem;
+        margin-top: 15%;
+        width: 20rem;
+        height: 17rem;
+    }
+}
+/* @media only screen and (min-width: 992px){
+    .thumb{
+        font-size: 1.5rem;
+    }
+    .thumb .thumbnail-img .imagethumbnail{
+        margin-left: 6rem;
+        margin-top: 10%;
+        width: 25rem;
+        height: 20rem;
+    }
+} */

@@ -1,0 +1,79 @@
+.nav{
+    width: 100vw;
+    background: #215E00;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 4rem ;
+}
+.nav .nav-brand{
+    color: white;
+}
+.nav .nav-link{
+    color: white;
+}
+.nav .nav-link .menu-list{
+    display: none;
+}
+.nav .search-area{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.nav .search-area .search-bar{
+    border: none;
+    background: none;
+    outline-style: none;
+
+}
+.nav .search-area .search-bar::placeholder{
+    color: white;
+    font-weight: 300px;
+    
+}
+.nav .search-area svg{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 480px){
+    .nav{
+        display: flex;
+        padding: 0.2rem 1rem; 
+    }
+    .nav .search-area .search-bar{
+        display: none;
+    }
+    .nav .search-area svg{
+        display: none;
+    }
+    .nav .nav-link .menu-list{
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px){
+    .nav{
+        display: flex;
+        padding: 0.2rem 3rem; 
+    }
+    .nav .nav-brand{
+        margin-left: -13%;
+    }
+    .nav .search-area .search-bar{
+        display: none;
+    }
+    .nav .search-area svg{
+        display: none;
+    }
+    .nav .nav-link{
+        display: flex;
+        gap: 0.5rem;
+    }
+    .nav .nav-link .menu-list{
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px){
+  .nav{
+    padding: 0.2rem 3rem ;
+  }  
+}

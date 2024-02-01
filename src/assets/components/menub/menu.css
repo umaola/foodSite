@@ -1,0 +1,50 @@
+.foodMenu{
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.foodMenu .menu-text{
+    width: 50%;
+    color: #215E00;
+}
+.foodMenu .menu-text .menu-heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.foodMenu .menu-img img{
+    width: 350px;
+}
+@media only screen and (max-width: 480px) {
+    .foodMenu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .foodMenu .menu-img img{
+        width: 100%;
+        height: 60%;
+        padding-top: 40%;
+    }
+    .foodMenu .menu-text .foodMenu-button{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px){
+    .foodMenu .menu-img img{
+        width: 100%;
+        height: 70%;
+        padding-top: 20%;
+    }   
+    .banner-button button{
+        padding: 0.3rem 0.7rem;
+        font-size: 12px;
+    }
+}
+/* @media only screen and (min-width: 992px){
+    .foodMenu{
+        font-size: 1.5rem;
+    }
+} */

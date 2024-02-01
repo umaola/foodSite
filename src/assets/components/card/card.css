@@ -1,0 +1,66 @@
+.pricing-card{
+    margin: 2rem;
+    width: 250px;
+}
+.pricing-card .card-head{
+    text-align: center;
+    background-color: #215E00;
+    color: #ffff;
+    padding: 1.5rem 0;
+}
+.pricing-card .card-body{
+    text-align: center;
+    background-color:#E9E9E9;
+    color: #215E00;
+    padding: 2rem 1.5rem 2rem 0.5rem;
+}
+.pricing-card .card-body li{
+    list-style-type: none;
+}
+@media only screen and (max-width: 480px) {
+    .pricing-card{
+        width: 100%;
+        margin: 0.2rem;
+    }
+    .pricing-card .card-head{
+        padding: 1rem 0;
+    }
+    .pricing-card .card-body{
+        padding: 1rem 1.5rem 1rem 0;
+    }
+    .card-banner-button button{
+        font-size: 12px;
+        padding: 0.5rem 0.9rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .pricing-card{
+        width: 30%;
+        margin: 0.5rem;
+    }
+    .pricing-card .card-head{
+        padding: 1rem 0;
+    }
+    .pricing-card .card-body{
+        padding: 1rem 1rem 2rem 0;
+    }
+    .card-banner-button button{
+        font-size: 12px;
+        padding: 0.5rem 0.9rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .pricing-card{
+        margin: 0.8rem;
+    }
+}
+@media only screen and (max-width: 992px){
+    .pricing-card{
+        margin: 1rem;
+    }
+}
+/* @media only screen and (min-width: 992px){
+    .pricing-card{
+        font-size: 1.5rem;
+    }
+} */

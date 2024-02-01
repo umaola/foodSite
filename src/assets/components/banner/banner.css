@@ -1,0 +1,114 @@
+
+.first-banner .banImg{
+   position: relative;
+    width: 100vw;
+    height: 400px;
+}
+.first-banner .banImg img{
+    position: relative;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.first-banner .banner-text{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-105%, -30%);
+    color: #215E00;
+    padding: 2rem 5rem;
+    text-align: left;
+}
+.first-banner .banner-text hr{
+    height: 2px;
+    background:#215E00;
+    width: 60%;
+}
+@media only screen and (max-width: 480px) {
+    .first-banner .banImg{
+        background: #215E00;
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+    .first-banner .banImg img{
+        display: none;
+    }
+    .first-banner .banner-text{
+        /* background-color: red; */
+        color: #ffff;
+        width: 100%;
+        /* position: relative; */
+        right: 70%;
+        text-align: center;
+        transform: translate(-50%, -140%);
+    }  
+    .first-banner .banner-text hr{
+        width: 100%;
+    }
+    .first-banner .banner-text h1{
+        font-size: 30px;
+    }
+    .first-banner .banner-text h2{
+        font-size: 20px;
+    }
+    .first-banner .banner-text .banner-button{
+        margin-left: 1.5rem;
+    }
+    .first-banner .banner-text .banner-button button{
+        background: #ffff;
+        color: #215E00;
+        padding: 0.3rem 0;
+        font-weight: 300px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .first-banner .banner-text{
+        width: 80%;
+        right: 70%;
+        text-align: left;
+        transform: translate(-70%, -130%);
+    }  
+}
+@media only screen and (max-width: 768px){
+    .first-banner .banner-text{
+        width: 60%;
+        right: 10%;
+        text-align: left;
+        transform: translate(-90%, -100%);
+    }
+    .first-banner .banner-text hr{
+        width: 100%;
+    } 
+}
+/* @media only screen and (max-width: 992px){
+    .first-banner .banner-text{
+        width: 50%;
+        text-align: left;
+        transform: translate(-105%, -120%);
+    }
+    .first-banner .banner-text hr{
+        width: 100%;
+    } 
+} */
+/* @media only screen and (min-width: 992px){
+    .first-banner .banner-text{
+        width: 50%;
+        text-align: left;
+        transform: translate(-30rem, -25rem);
+    }
+    .first-banner .banner-text{
+        font-size: 19px;
+    }
+    .first-banner .banner-text hr{
+        width: 100%;
+    }        
+}*/
+/* @media only screen and (min-width: 1200px){
+    .first-banner .banner-text{
+        width: 50%;
+        text-align: left;
+        transform: translate(-30rem, -25rem);
+    }
+} */

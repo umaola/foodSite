@@ -1,0 +1,22 @@
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.about-us .background-text{
+    position: absolute;
+
+}
+.about-us .background-text h1{
+    font-size: 60px;
+    font-weight: 800px;
+    color: #E9E9E9;
+    opacity: 0.6;
+}
+.about-us .about-text{
+    text-align: center;
+    display: block;
+    z-index: 1;
+    color: #215E00;
+}
